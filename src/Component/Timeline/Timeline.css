@@ -1,0 +1,185 @@
+
+.marquee {
+
+  overflow: hidden;
+  /* hide the scrolling overflow */
+  width: 100%;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
+.marquee_header {
+ 
+    margin-top: 5%;
+    margin-bottom: 8%;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  
+}
+
+.marquee_header h2{
+   
+    font-size: 45px;
+
+}
+
+.marquee_header p{
+    width: 820px;
+    margin-top: 25px;
+    margin-left: 30%;
+    font-size: 22px;
+    
+}
+
+
+.marquee__inner {
+    margin-top: 5%;
+    display: flex;
+  width: max-content;
+ 
+  animation: marquee 56s linear infinite;
+}
+
+.marquee__group {
+  display: flex;
+}
+
+.marquee__group span {
+    /* width: 560px;
+    height: 480px; */
+   margin: 0 1.5rem;
+  white-space: nowrap;
+/* 
+  box-shadow: 26px 35px 26px #020202 ;  */
+  color: white;
+  padding: 4px 6px 6px 5px;
+  border-radius: 16px; 
+  /* border: 1px solid #ffffff63; */
+ 
+}
+
+.marquee__group  img{
+  width: 460px;
+  height: auto;
+  border-radius: 10px;
+
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+
+@media screen and (max-width:480px) {
+
+
+
+.marquee {
+
+  overflow: hidden;
+
+  width: 100%;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
+.marquee_header {
+ 
+    margin-top: 21%;
+    margin-bottom: 8%;
+  font-size: 15px;
+  font-weight: 800;
+  text-align: center;
+  
+}
+
+.marquee_header h2{
+   
+    font-size: 18px;
+
+}
+
+.marquee_header p{
+
+    width: 325px;
+    margin-top: 25px;
+    margin-left: 3%;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.marquee__inner {
+    margin-top: 5%;
+    display: flex;
+  width: max-content;
+ 
+  animation: marquee 56s linear infinite;
+}
+
+.marquee__group {
+  display: flex;
+}
+
+.marquee__group span {
+    /* width: 560px;
+    height: 480px; */
+   margin: 0 1.5rem;
+  white-space: nowrap;
+  /* background: #020202;
+  box-shadow: 26px 35px 26px #020202 ; */
+  color: white;
+  padding: 4px 4px 4px 4px;
+  border-radius: 16px; 
+ 
+}
+
+.marquee__group  img{
+  width: 310px;
+  height: auto;
+  border-radius: 16px;
+
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+  
+}
