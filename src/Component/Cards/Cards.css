@@ -1,0 +1,436 @@
+
+
+.cardsPart{
+
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+/* From Uiverse.io by Spacious74 */ 
+.outer {
+  width: 800px;
+  height: 510px;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding: 1px;
+  background: radial-gradient(circle 230px at 0% 0%, #ffffff, #0c0d0d);
+  position: relative;
+}
+
+.dot {
+  width: 5px;
+  aspect-ratio: 1;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 100px;
+  z-index: 2;
+  right: 10%;
+  top: 10%;
+  animation: moveDot 8s linear infinite;
+}
+
+@keyframes moveDot {
+  0%,
+  100% {
+    top: 8%;
+    right: 5%;
+  }
+  25% {
+    top:8%;
+    right: calc(100% - 35px);
+  }
+  50% {
+    top: calc(100% - 30px);
+    right: calc(100% - 35px);
+  }
+  75% {
+    top: calc(100% - 25px);
+    right: 5%;
+  }
+}
+
+.card {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  border: solid 1px #202222;
+  box-shadow: 15px 25px 15px #0e0e0e;
+  background-size: 20px 20px;
+  background: radial-gradient(circle 280px at 0% 0%, #444444, #0c0d0d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  color: #fff;
+}
+.ray {
+  width: 150px;
+  height: 45px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.5;
+  box-shadow: 0 0 50px #000000;
+  filter: blur(29px);
+  transform-origin: 10%;
+  top: 0%;
+  left: 0;
+  transform: rotate(40deg);
+}
+
+.card .text {
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  background: linear-gradient(45deg, #f1f1f1 4%, #fff, #818181);
+  background-clip: text;
+  color: transparent;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: #2c2c2c;
+}
+.topl {
+  top: 6%;
+  background: linear-gradient(90deg, #888888 30%, #1d1f1f 70%);
+}
+.bottoml {
+  bottom: 6%;
+}
+.leftl {
+  left: 4%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, #747474 30%, #222424 70%);
+}
+.rightl {
+  right: 4%;
+  width: 2px;
+  height: 100%;
+}
+
+
+
+.cardsPart .left{
+
+  width: 860px;
+  margin-top: 5%;
+  margin-left: 3%;
+  /* box-shadow: 25px 55px  34px #0a0a0a ;
+  border-radius: 10px 15px 0px; */
+  padding:5px 1px;
+  /* border: 1px solid #d3d3d336; */
+  
+}
+
+
+.cardsPart .left h3{
+   
+  font-size: 30px;
+  margin-top: 4%;
+  margin-left: 12%;
+}
+
+.cardsPart .left p{
+  width: 700px;
+  font-size: 21px;
+  margin-left: 8%;
+  margin-top: 2%;
+  
+}
+
+
+ul{
+
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+li{
+   margin-left: 15px;
+  font-size: 19px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 10px;
+}
+
+
+.cardsPart .right{
+  
+    width: 660px;
+     width: 700px;
+    margin-left: 12%;
+    margin-top: 5%;
+    
+
+}
+
+
+.right p{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: -4%;
+}
+
+
+.cardsPart .swiper {
+   width: 600px;
+    height: 520px;
+  }
+  
+.cardsPart  .swiper-slide {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+
+  .cardsPart .swiper-slide img{
+    width:600px;
+    height: auto;
+  }
+
+
+
+
+  @media screen and (max-width:480px) {
+
+
+
+.cardsPart{
+
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+/* From Uiverse.io by Spacious74 */ 
+.outer {
+  width: 330px;
+  height: 510px;
+  border-radius: 10px;
+  margin-top:5%;
+  margin-left: 4%;
+  padding: 1px;
+  background: radial-gradient(circle 230px at 0% 0%, #ffffff, #0c0d0d);
+  position: relative;
+}
+
+.dot {
+  width: 5px;
+  aspect-ratio: 1;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ffffff;
+  border-radius: 100px;
+  z-index: 2;
+  right: 5%;
+  top: 5%;
+  animation: moveDot 8s linear infinite;
+}
+
+@keyframes moveDot {
+  0%,
+  100% {
+    top: 5%;
+    right: 5%;
+  }
+  25% {
+    top:8%;
+    right: calc(100% - 35px);
+  }
+  50% {
+    top: calc(100% - 30px);
+    right: calc(100% - 35px);
+  }
+  75% {
+    top: calc(100% - 25px);
+    right: 5%;
+  }
+}
+
+.card {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  border: solid 1px #202222;
+  box-shadow: 15px 25px 15px #0e0e0e;
+  background-size: 20px 20px;
+  background: radial-gradient(circle 280px at 0% 0%, #444444, #0c0d0d);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  color: #fff;
+}
+.ray {
+  width: 50px;
+  height: 25px;
+  border-radius: 100px;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.5;
+  box-shadow: 0 0 50px #000000;
+  filter: blur(29px);
+  transform-origin: 10%;
+  top: 0%;
+  left: 0;
+  transform: rotate(40deg);
+}
+
+.card .text {
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-left:9%;
+  background: linear-gradient(45deg, #f1f1f1 4%, #fff, #818181);
+  background-clip: text;
+  color: transparent;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: #2c2c2c;
+}
+.topl {
+  top: 6%;
+  background: linear-gradient(90deg, #888888 30%, #1d1f1f 70%);
+}
+.bottoml {
+  bottom: 6%;
+}
+.leftl {
+  left: 4%;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, #747474 30%, #222424 70%);
+}
+.rightl {
+  right: 4%;
+  width: 2px;
+  height: 100%;
+}
+
+
+
+.cardsPart .left{
+
+  width: 360px;
+  margin-top: 5%;
+  margin-left: 4%;
+  /* box-shadow: 25px 55px  34px #0a0a0a ;
+  border-radius: 10px 15px 0px; */
+  padding:5px 1px;
+  /* border: 1px solid #d3d3d336; */
+  
+}
+
+
+.cardsPart .left h3{
+   
+  font-size: 15px;
+  margin-top: 4%;
+  margin-left: 12%;
+}
+
+.cardsPart .left p{
+  width: 260px;
+  font-size: 14px;
+  margin-left: 10%;
+  margin-top: 1%;
+  
+  
+}
+
+
+ul{
+
+  text-decoration: none;
+  margin-left: 12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li{
+  width: 260px;
+   margin-left: 16px;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 10px;
+}
+
+
+
+.cardsPart .right{
+  
+   
+     width: 300px;
+     height: auto;
+    margin-left: 2%;
+    margin-top: 5%;
+    border: none;
+
+}
+
+
+.right p{
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 4%;
+}
+
+
+.cardsPart .swiper {
+   width: 310px;
+    height: 500px;
+  
+   
+  }
+  
+.cardsPart  .swiper-slide {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+  
+    border: none;
+     /* background-image: linear-gradient(to right , #080808 , #000000 , #191919);
+     */
+  
+  }
+  
+
+  .cardsPart .swiper-slide img{
+    width:300px;
+    height: auto;
+    border: 1px solid #f1f1f1;
+    background-color: transparent;
+    padding: 2px;
+
+  }
+
+
+
+
+    
+  }
