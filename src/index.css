@@ -1,0 +1,44 @@
+/* *{
+
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+
+html , body{
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #080808;
+  background-image: linear-gradient(to right , #080808 , #121212 , #191919);
+  color: #fff5f5;
+  
+} */
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100vw;
+  /* width: 100%; */
+  overflow-x: hidden;
+  background-color: #080808;
+  background-image: linear-gradient(to right, #080808, #121212, #191919);
+  color: #fff5f5;
+}
+
+.three-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Makes particles stay behind content */
+}
