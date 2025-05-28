@@ -81,7 +81,7 @@ const Messages = () => {
 
               <h3>Special Mention to Prathamesh Awale</h3>
               <p>
-                From recent time he has been very close to my heart . And having
+                From recent time you have been very close to my heart . And having
                 mutual respect for each other and kind hearted person. Which
                 makes you better person ❤️🌹
               </p>
