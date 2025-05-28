@@ -1,0 +1,141 @@
+
+
+.mainpart{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+    margin-top: 5%;
+
+}
+
+
+
+
+
+.mainpart .left{
+     
+    width: 800px;
+    font-size: 14px;
+    /* background-color: aliceblue; */
+    margin-left: 5.5%;
+    margin-top: 8%;
+}
+
+
+ .left h2 {
+    font-size: 49px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    background: linear-gradient(to right,#18b868, #1766b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.left p{
+    width: 686px;
+     margin-top: 15px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ .mainpart .right{
+
+    width: 750px;
+    height: auto;
+    margin-top: 6%;
+    margin-left: 7%;
+    border: 3px solid rgba(245, 222, 179, 0.822);
+    padding: 0px;
+    border-radius: 16px;
+    box-shadow: 25px 35px 26px #0a0a0a;
+    transition: all ease 0.3s;
+
+} 
+
+
+.mainpart .right:hover{
+
+     box-shadow: 0px 0px 25px 4px #ffbb763f;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+   transition: all ease 0.3s;
+
+}
+
+.right img{
+    width: 745px;
+    height: auto;
+    padding: 2px;
+    border-radius: 16px;
+}
+
+
+
+@media screen and (max-width:480px) {
+
+
+
+.mainpart{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+    margin-top: 29px;
+}
+
+
+
+
+
+.mainpart .right{
+     
+    width: 400px;
+    
+    font-size: 14px;
+    /* background-color: aliceblue; */
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+
+ .left h2 {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    background: linear-gradient(to right,#18b868, #1766b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 5px;
+  }
+
+.left p{
+    text-align: center;
+    width: 334px;
+     margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mainpart .right{
+
+    width: 330px;
+    height: 248px;
+    margin-top: 6%;
+    margin-left: 3%;
+    border: 1px solid rgba(245, 222, 179, 0.822);
+    padding: 0px;
+    border-radius: 16px;
+    box-shadow: 15px 25px 16px #000000;
+
+}
+
+.right img{
+    width: 326px;
+    height: auto;
+    padding: 2px;
+    border-radius: 16px;
+}
+
+
+    
+}
