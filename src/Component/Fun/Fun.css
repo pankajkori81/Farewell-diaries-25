@@ -1,0 +1,138 @@
+
+
+.memeclass{
+    margin-top: 15%;
+}
+
+.memeclass h1{
+    text-align: center;
+    font-size: 30px;
+}
+.memes{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+   
+    
+   
+}
+
+
+
+
+.memebox{
+    margin-left:0%;
+    width: 420px;
+    height:580px;
+    background-color: rgba(32, 32, 32, 0.575);
+     border-radius: 10px;
+    border: 1px solid rgba(192, 192, 192, 0.671);
+       box-shadow: 15px 25px 15px #141414 ;
+
+    
+    
+}
+
+.memebox img{
+    margin-top: 15px;
+    width: 420px;
+    height: auto;
+
+}
+
+.memebox p{
+
+    font-size: 20px;
+    padding: 15px 10px;
+    margin-left: 15px;
+}
+
+.memebox .meme3{
+
+    width: 340px;
+    height: 370px;
+    margin-left: 8%;
+}
+h1{
+    font-size: 45px;
+}
+
+
+
+
+@media screen and (max-width:480px) {
+
+.memeclass{
+    margin-top: 25%;
+}
+
+.memeclass h1{
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.memes{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+   
+    
+   
+}
+
+
+
+
+.memebox{
+    margin-left:0%;
+    margin-top: 10px;
+    width: 325px;
+    height:auto;
+    background-color: rgba(32, 32, 32, 0.575);
+     border-radius: 10px;
+    border: 1px solid rgba(192, 192, 192, 0.61);
+       box-shadow: 15px 25px 15px #141414 ;
+
+    
+    
+}
+
+.memebox img{
+    margin-top: 15px;
+    width: 320px;
+    height: auto;
+
+}
+
+.memebox p{
+
+    font-size: 16px;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.memebox .meme3{
+
+    width: 320px;
+    height: auto;
+    margin-left: 1%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+
+h1{
+    font-size: 20px;
+}
+
+    
+}
